@@ -2,5 +2,5 @@ from order import Order
 
 class Salad(Order):
     def __init__(self) -> None:
-        super().__init__()
+        super().__init__("Salad", 4)
         pass
