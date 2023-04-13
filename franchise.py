@@ -10,7 +10,7 @@ class Franchise:
 
 
     def place_order(self):
-        order = input(f"{self.location_number} -- choose from the following: Pizza, Pasta or Salad----   ")
+        order = input(f"location- {self.location_number} choose from the following: \ntype 1 for Pizza, 2 for Pasta or 3 for Salad----   ")
         orders = OrderFactory.create_order(order)
         logger.log_transaction(orders, self.location_number)
 

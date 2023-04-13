@@ -10,12 +10,11 @@ class OrderFactory:
 #This method should accept a string as a parameter (ex “Pizza”) and return the corresponding type of Order child class instantiation (ex Pizza() )
     @staticmethod
     def create_order(order):
-    
-        if order == 'Pizza':
-            return Pizza()
-        elif order == 'Pasta':
-            return Pasta()
-        elif order == 'Salad':
-            return Salad()
+            if order == '1':
+                return Pizza()
+            elif order == '2':
+                return Pasta()
+            elif order == '3':
+                return Salad()
     
 

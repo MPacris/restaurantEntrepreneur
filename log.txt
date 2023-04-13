@@ -1,14 +1,24 @@
 
  Order #1: Salad at location 3 - $6; Total: $6
 
- Order #1: Salad at location 3 - $6; Total: $6
+ Order #2: Pasta at location 1 - $5; Total: $11
 
- Order #2: Pizza at location 1 - $4; Total: $10
+ Order #3: Pizza at location 2 - $4; Total: $15
 
- Order #3: Pasta at location 2 - $5; Total: $15
+ Order #4: Pasta at location 1 - $5; Total: $20
 
- Order #4: Pizza at location 1 - $4; Total: $19
+ Order #5: Salad at location 3 - $6; Total: $26
 
- Order #5: Pasta at location 3 - $5; Total: $24
+ Order #6: Pizza at location 2 - $4; Total: $30
 
- Order #6: Salad at location 2 - $6; Total: $30
+ Order #1: Pasta at location 3 - $5; Total: $5
+
+ Order #2: Salad at location 1 - $6; Total: $11
+
+ Order #3: Pizza at location 2 - $4; Total: $15
+
+ Order #4: Pasta at location 1 - $5; Total: $20
+
+ Order #5: Pizza at location 3 - $4; Total: $24
+
+ Order #6: Pasta at location 2 - $5; Total: $29
