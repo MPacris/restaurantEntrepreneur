@@ -1,18 +1,23 @@
 
 
+
 class Logger:
-    def __init__(self) -> None:
+    def __init__(self):
         self.transaction_count = 0
-        self.daily_sales = 0 
+        self.daily_sales = 0
+        
 
-
-
- #As a developer, I want to use the Singleton pattern (as shown in the Design Patterns Demo repo) 
- # to create a single instance of a Logger object inside the logger.py file and 
- # import this instance into the Franchise class to be shared by all instantiations.
    
-   
-   
-    def log_transaction(self, order):
+    def log_transaction(self, orders, location_number):
+        self.daily_sales += orders.price
         self.transaction_count += 1
-        self.daily_sales += order.price
+        file = open('log.txt','a')
+        file.write(f"\n Order #{self.transaction_count}: {orders.dish_name} at location {location_number} - ${orders.price}; Total: ${self.daily_sales}\n")
+        file.close()
+
+logger = Logger()
+        
+       
+
+
+

@@ -1,4 +1,16 @@
 from franchise import Franchise
 
-sim = Franchise(1)
-sim.place_order()
+class Simulation:
+
+    def run_simulation(self):
+    
+        location_one = Franchise(1)
+        location_two = Franchise(2)
+        location_three = Franchise(3)
+
+        location_three.place_order()
+        location_one.place_order()
+        location_two.place_order()
+        location_one.place_order()
+        location_three.place_order()
+        location_two.place_order()

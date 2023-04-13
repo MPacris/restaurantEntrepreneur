@@ -8,11 +8,14 @@ class OrderFactory:
 
 #As a developer, I want to utilize a Factory Pattern in the create_order() method to instantiate instances of the three different Order child classes.
 #This method should accept a string as a parameter (ex “Pizza”) and return the corresponding type of Order child class instantiation (ex Pizza() )
-    def create_order(dish_name):
+    @staticmethod
+    def create_order(order):
     
-        if type == 'Pizza':
+        if order == 'Pizza':
             return Pizza()
-        elif type == 'Pasta':
+        elif order == 'Pasta':
             return Pasta()
-        elif type == 'Salad':
+        elif order == 'Salad':
             return Salad()
+    
+

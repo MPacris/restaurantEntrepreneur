@@ -1,4 +1,4 @@
-class Main:
+from simulation import Simulation
 
-    def __init__(self) -> None:
-        pass
+simulation_one = Simulation()
+simulation_one.run_simulation()
