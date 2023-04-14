@@ -12,7 +12,7 @@ class Logger:
         self.daily_sales += orders.price
         self.transaction_count += 1
         file = open('log.txt','a')
-        file.write(f"\n Transaction #{self.transaction_count}: {orders.dish_name} ordered at location # {location_number} - Paid - ${orders.price}; ALL SALES DAILY TOTAL: ${self.daily_sales}\n")
+        file.write(f"\nTransaction #{self.transaction_count}: {orders.dish_name} ordered at location # {location_number} - Paid - ${orders.price}; ALL SALES DAILY TOTAL: ${self.daily_sales}\n")
         file.close()
 
 logger = Logger()

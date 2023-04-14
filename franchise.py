@@ -21,9 +21,9 @@ class Franchise:
         elif order == '3':
             orders = OrderFactory.create_order(order) 
         else:
-            print('WRONG!')
+            print('WRONG!  CHOOSE AGAIN!!! ')
             return self.place_order()   
-
+#used a conditional to account for error entry
         
         orders = OrderFactory.create_order(order)    
         logger.log_transaction(orders, self.location_number)
