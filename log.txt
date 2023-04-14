@@ -1,13 +1,12 @@
 
+ Transaction #1: Salad ordered at location # 3 - Paid - $6; ALL SALES DAILY TOTAL: $6
 
- Transaction #1: Pizza ordered at location # 3 - Paid - $4; ALL SALES DAILY TOTAL: $4
+ Transaction #2: Pasta ordered at location # 1 - Paid - $5; ALL SALES DAILY TOTAL: $11
 
- Transaction #2: Pizza ordered at location # 1 - Paid - $4; ALL SALES DAILY TOTAL: $8
+ Transaction #3: Pizza ordered at location # 2 - Paid - $4; ALL SALES DAILY TOTAL: $15
 
- Transaction #3: Pasta ordered at location # 2 - Paid - $5; ALL SALES DAILY TOTAL: $13
+ Transaction #4: Pasta ordered at location # 1 - Paid - $5; ALL SALES DAILY TOTAL: $20
 
- Transaction #4: Pasta ordered at location # 1 - Paid - $5; ALL SALES DAILY TOTAL: $18
+ Transaction #5: Pasta ordered at location # 3 - Paid - $5; ALL SALES DAILY TOTAL: $25
 
- Transaction #5: Salad ordered at location # 3 - Paid - $6; ALL SALES DAILY TOTAL: $24
-
- Transaction #6: Salad ordered at location # 2 - Paid - $6; ALL SALES DAILY TOTAL: $30
+ Transaction #6: Pizza ordered at location # 2 - Paid - $4; ALL SALES DAILY TOTAL: $29
